@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3605F0C629B97877008AD270 /* LangganganKamuHeaderTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F0C529B97877008AD270 /* LangganganKamuHeaderTittle.swift */; };
+		3605F0C829B97CF4008AD270 /* PopularHeaderTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F0C729B97CF4008AD270 /* PopularHeaderTittle.swift */; };
+		3605F0CA29B98366008AD270 /* VoucherHeaderTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F0C929B98366008AD270 /* VoucherHeaderTittle.swift */; };
+		3605F0CC29B99CF0008AD270 /* PaketBelajarHeaderTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F0CB29B99CF0008AD270 /* PaketBelajarHeaderTittle.swift */; };
+		362D3ED829B6F2C10010249C /* CariVoucherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3ED629B6F2C10010249C /* CariVoucherCollectionViewCell.swift */; };
+		362D3ED929B6F2C10010249C /* CariVoucherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362D3ED729B6F2C10010249C /* CariVoucherCollectionViewCell.xib */; };
+		362D3EDB29B6F5060010249C /* promoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3EDA29B6F5060010249C /* promoImage.swift */; };
+		362D3EDE29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3EDC29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.swift */; };
+		362D3EDF29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362D3EDD29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.xib */; };
+		362D3EE229B723D60010249C /* PaketBelajarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3EE029B723D60010249C /* PaketBelajarCollectionViewCell.swift */; };
+		362D3EE329B723D60010249C /* PaketBelajarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362D3EE129B723D60010249C /* PaketBelajarCollectionViewCell.xib */; };
+		362D3EE629B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3EE429B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.swift */; };
+		362D3EE729B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362D3EE529B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.xib */; };
+		362FF2AD29B59E1A00E3C265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2AC29B59E1A00E3C265 /* AppDelegate.swift */; };
+		362FF2AF29B59E1A00E3C265 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2AE29B59E1A00E3C265 /* SceneDelegate.swift */; };
+		362FF2B129B59E1A00E3C265 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2B029B59E1A00E3C265 /* ViewController.swift */; };
+		362FF2B429B59E1A00E3C265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2B229B59E1A00E3C265 /* Main.storyboard */; };
+		362FF2B629B59E2000E3C265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2B529B59E2000E3C265 /* Assets.xcassets */; };
+		362FF2B929B59E2000E3C265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2B729B59E2000E3C265 /* LaunchScreen.storyboard */; };
+		362FF2C429B59E2100E3C265 /* myTelkomselApp_exam_part1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2C329B59E2100E3C265 /* myTelkomselApp_exam_part1_Tests.swift */; };
+		362FF2CF29B59E2100E3C265 /* myTelkomselApp_exam_part1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2CE29B59E2100E3C265 /* myTelkomselApp_exam_part1_UITests.swift */; };
+		362FF2E129B59FB200E3C265 /* PaketInternetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2DF29B59FB200E3C265 /* PaketInternetCollectionViewCell.swift */; };
+		362FF2E229B59FB200E3C265 /* PaketInternetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2E029B59FB200E3C265 /* PaketInternetCollectionViewCell.xib */; };
+		362FF2E429B5A08B00E3C265 /* internetOMG!.png in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2E329B5A08B00E3C265 /* internetOMG!.png */; };
+		362FF2E729B5A19600E3C265 /* paketDataImageStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2E629B5A19600E3C265 /* paketDataImageStruct.swift */; };
+		362FF2EA29B5A49800E3C265 /* TableViewCellForPaketInternetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2E829B5A49800E3C265 /* TableViewCellForPaketInternetCollection.swift */; };
+		362FF2EB29B5A49800E3C265 /* TableViewCellForPaketInternetCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2E929B5A49800E3C265 /* TableViewCellForPaketInternetCollection.xib */; };
+		362FF2F229B5C76F00E3C265 /* LangganganKamuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2F029B5C76F00E3C265 /* LangganganKamuCollectionViewCell.swift */; };
+		362FF2F329B5C76F00E3C265 /* LangganganKamuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2F129B5C76F00E3C265 /* LangganganKamuCollectionViewCell.xib */; };
+		362FF2F629B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2F429B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.swift */; };
+		362FF2F729B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362FF2F529B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.xib */; };
+		362FF2F929B5D33200E3C265 /* langganganKamuStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FF2F829B5D33200E3C265 /* langganganKamuStruct.swift */; };
+		36C3543D29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3543B29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.swift */; };
+		36C3543E29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36C3543C29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.xib */; };
+		36C3544129B8556B00AE9EF8 /* PaketInternetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3543F29B8556B00AE9EF8 /* PaketInternetTableViewCell.swift */; };
+		36C3544229B8556B00AE9EF8 /* PaketInternetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36C3544029B8556B00AE9EF8 /* PaketInternetTableViewCell.xib */; };
+		36C3544429B8728E00AE9EF8 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3544329B8728E00AE9EF8 /* ThirdPageViewController.swift */; };
+		36ED448529B820EC00E0A8F0 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED448429B820EC00E0A8F0 /* SecondPageViewController.swift */; };
+		36ED448829B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED448629B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.swift */; };
+		36ED448929B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36ED448729B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.xib */; };
+		36ED448C29B8231100E0A8F0 /* MasaAktifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED448A29B8231100E0A8F0 /* MasaAktifTableViewCell.swift */; };
+		36ED448D29B8231100E0A8F0 /* MasaAktifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36ED448B29B8231100E0A8F0 /* MasaAktifTableViewCell.xib */; };
+		36ED449029B823EB00E0A8F0 /* RincianPaketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED448E29B823EA00E0A8F0 /* RincianPaketTableViewCell.swift */; };
+		36ED449129B823EB00E0A8F0 /* RincianPaketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36ED448F29B823EB00E0A8F0 /* RincianPaketTableViewCell.xib */; };
+		36ED449429B82BD700E0A8F0 /* KeteranganPaketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ED449229B82BD700E0A8F0 /* KeteranganPaketTableViewCell.swift */; };
+		36ED449529B82BD700E0A8F0 /* KeteranganPaketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36ED449329B82BD700E0A8F0 /* KeteranganPaketTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		362FF2C029B59E2100E3C265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362FF2A129B59E1A00E3C265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362FF2A829B59E1A00E3C265;
+			remoteInfo = "myTelkomselApp(exam-part1)";
+		};
+		362FF2CB29B59E2100E3C265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362FF2A129B59E1A00E3C265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362FF2A829B59E1A00E3C265;
+			remoteInfo = "myTelkomselApp(exam-part1)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3605F0C529B97877008AD270 /* LangganganKamuHeaderTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangganganKamuHeaderTittle.swift; sourceTree = "<group>"; };
+		3605F0C729B97CF4008AD270 /* PopularHeaderTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularHeaderTittle.swift; sourceTree = "<group>"; };
+		3605F0C929B98366008AD270 /* VoucherHeaderTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherHeaderTittle.swift; sourceTree = "<group>"; };
+		3605F0CB29B99CF0008AD270 /* PaketBelajarHeaderTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketBelajarHeaderTittle.swift; sourceTree = "<group>"; };
+		362D3ED629B6F2C10010249C /* CariVoucherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CariVoucherCollectionViewCell.swift; sourceTree = "<group>"; };
+		362D3ED729B6F2C10010249C /* CariVoucherCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CariVoucherCollectionViewCell.xib; sourceTree = "<group>"; };
+		362D3EDA29B6F5060010249C /* promoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promoImage.swift; sourceTree = "<group>"; };
+		362D3EDC29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherTableViewCellForVoucherCollectionCell.swift; sourceTree = "<group>"; };
+		362D3EDD29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoucherTableViewCellForVoucherCollectionCell.xib; sourceTree = "<group>"; };
+		362D3EE029B723D60010249C /* PaketBelajarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketBelajarCollectionViewCell.swift; sourceTree = "<group>"; };
+		362D3EE129B723D60010249C /* PaketBelajarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaketBelajarCollectionViewCell.xib; sourceTree = "<group>"; };
+		362D3EE429B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketBelajarTableViewCellForPaketBelajarCollection.swift; sourceTree = "<group>"; };
+		362D3EE529B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaketBelajarTableViewCellForPaketBelajarCollection.xib; sourceTree = "<group>"; };
+		362FF2A929B59E1A00E3C265 /* myTelkomselApp(exam-part1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myTelkomselApp(exam-part1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362FF2AC29B59E1A00E3C265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		362FF2AE29B59E1A00E3C265 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		362FF2B029B59E1A00E3C265 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362FF2B329B59E1A00E3C265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		362FF2B529B59E2000E3C265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362FF2B829B59E2000E3C265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		362FF2BA29B59E2000E3C265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362FF2BF29B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myTelkomselApp(exam-part1)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362FF2C329B59E2100E3C265 /* myTelkomselApp_exam_part1_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTelkomselApp_exam_part1_Tests.swift; sourceTree = "<group>"; };
+		362FF2C529B59E2100E3C265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362FF2CA29B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myTelkomselApp(exam-part1)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362FF2CE29B59E2100E3C265 /* myTelkomselApp_exam_part1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTelkomselApp_exam_part1_UITests.swift; sourceTree = "<group>"; };
+		362FF2D029B59E2100E3C265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362FF2DF29B59FB200E3C265 /* PaketInternetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketInternetCollectionViewCell.swift; sourceTree = "<group>"; };
+		362FF2E029B59FB200E3C265 /* PaketInternetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaketInternetCollectionViewCell.xib; sourceTree = "<group>"; };
+		362FF2E329B5A08B00E3C265 /* internetOMG!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internetOMG!.png"; sourceTree = "<group>"; };
+		362FF2E629B5A19600E3C265 /* paketDataImageStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paketDataImageStruct.swift; sourceTree = "<group>"; };
+		362FF2E829B5A49800E3C265 /* TableViewCellForPaketInternetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForPaketInternetCollection.swift; sourceTree = "<group>"; };
+		362FF2E929B5A49800E3C265 /* TableViewCellForPaketInternetCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellForPaketInternetCollection.xib; sourceTree = "<group>"; };
+		362FF2F029B5C76F00E3C265 /* LangganganKamuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangganganKamuCollectionViewCell.swift; sourceTree = "<group>"; };
+		362FF2F129B5C76F00E3C265 /* LangganganKamuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LangganganKamuCollectionViewCell.xib; sourceTree = "<group>"; };
+		362FF2F429B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanggananKamuTableViewCellForLangganganCollection.swift; sourceTree = "<group>"; };
+		362FF2F529B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanggananKamuTableViewCellForLangganganCollection.xib; sourceTree = "<group>"; };
+		362FF2F829B5D33200E3C265 /* langganganKamuStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = langganganKamuStruct.swift; sourceTree = "<group>"; };
+		36C3543B29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentSuccessTableViewCell.swift; path = "myTelkomselApp(exam-part1)/TABLE_VIEW_CELL/PaymentSuccessTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		36C3543C29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PaymentSuccessTableViewCell.xib; path = "myTelkomselApp(exam-part1)/TABLE_VIEW_CELL/PaymentSuccessTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		36C3543F29B8556B00AE9EF8 /* PaketInternetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketInternetTableViewCell.swift; sourceTree = "<group>"; };
+		36C3544029B8556B00AE9EF8 /* PaketInternetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaketInternetTableViewCell.xib; sourceTree = "<group>"; };
+		36C3544329B8728E00AE9EF8 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
+		36ED448429B820EC00E0A8F0 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		36ED448629B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutPaketDataTableViewCell.swift; sourceTree = "<group>"; };
+		36ED448729B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckOutPaketDataTableViewCell.xib; sourceTree = "<group>"; };
+		36ED448A29B8231100E0A8F0 /* MasaAktifTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasaAktifTableViewCell.swift; sourceTree = "<group>"; };
+		36ED448B29B8231100E0A8F0 /* MasaAktifTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasaAktifTableViewCell.xib; sourceTree = "<group>"; };
+		36ED448E29B823EA00E0A8F0 /* RincianPaketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RincianPaketTableViewCell.swift; sourceTree = "<group>"; };
+		36ED448F29B823EB00E0A8F0 /* RincianPaketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RincianPaketTableViewCell.xib; sourceTree = "<group>"; };
+		36ED449229B82BD700E0A8F0 /* KeteranganPaketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeteranganPaketTableViewCell.swift; sourceTree = "<group>"; };
+		36ED449329B82BD700E0A8F0 /* KeteranganPaketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeteranganPaketTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362FF2A629B59E1A00E3C265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362FF2BC29B59E2100E3C265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362FF2C729B59E2100E3C265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3605F0C429B97657008AD270 /* HEADER_TITTLE */ = {
+			isa = PBXGroup;
+			children = (
+				3605F0C529B97877008AD270 /* LangganganKamuHeaderTittle.swift */,
+				3605F0C729B97CF4008AD270 /* PopularHeaderTittle.swift */,
+				3605F0C929B98366008AD270 /* VoucherHeaderTittle.swift */,
+				3605F0CB29B99CF0008AD270 /* PaketBelajarHeaderTittle.swift */,
+			);
+			path = HEADER_TITTLE;
+			sourceTree = "<group>";
+		};
+		3605F0CD29B9E3FF008AD270 /* PAKET_INTERNET */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2E829B5A49800E3C265 /* TableViewCellForPaketInternetCollection.swift */,
+				362FF2E929B5A49800E3C265 /* TableViewCellForPaketInternetCollection.xib */,
+			);
+			path = PAKET_INTERNET;
+			sourceTree = "<group>";
+		};
+		3605F0CE29B9E418008AD270 /* LANGGANGAN_KAMU_AND_POPULAR_SECTION */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2F429B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.swift */,
+				362FF2F529B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.xib */,
+			);
+			path = LANGGANGAN_KAMU_AND_POPULAR_SECTION;
+			sourceTree = "<group>";
+		};
+		3605F0CF29B9E450008AD270 /* VOUCHER_SECTION */ = {
+			isa = PBXGroup;
+			children = (
+				362D3EDC29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.swift */,
+				362D3EDD29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.xib */,
+			);
+			path = VOUCHER_SECTION;
+			sourceTree = "<group>";
+		};
+		3605F0D029B9E465008AD270 /* PAKET_BELAJAR_SECTION */ = {
+			isa = PBXGroup;
+			children = (
+				362D3EE429B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.swift */,
+				362D3EE529B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.xib */,
+			);
+			path = PAKET_BELAJAR_SECTION;
+			sourceTree = "<group>";
+		};
+		362FF2A029B59E1900E3C265 = {
+			isa = PBXGroup;
+			children = (
+				362FF2AB29B59E1A00E3C265 /* myTelkomselApp(exam-part1) */,
+				362FF2C229B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests */,
+				362FF2CD29B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests */,
+				362FF2AA29B59E1A00E3C265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		362FF2AA29B59E1A00E3C265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2A929B59E1A00E3C265 /* myTelkomselApp(exam-part1).app */,
+				362FF2BF29B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests.xctest */,
+				362FF2CA29B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362FF2AB29B59E1A00E3C265 /* myTelkomselApp(exam-part1) */ = {
+			isa = PBXGroup;
+			children = (
+				3605F0C429B97657008AD270 /* HEADER_TITTLE */,
+				362FF2E529B5A17800E3C265 /* STRUCT */,
+				362FF2DE29B59E8E00E3C265 /* COLLECTION_VIEW_CELL */,
+				362FF2DD29B59E7A00E3C265 /* TABLE_VIEW_CELL */,
+				362FF2DC29B59E6500E3C265 /* VIEW_CONTROLLER */,
+				362FF2AC29B59E1A00E3C265 /* AppDelegate.swift */,
+				362FF2AE29B59E1A00E3C265 /* SceneDelegate.swift */,
+				362FF2E329B5A08B00E3C265 /* internetOMG!.png */,
+				362FF2B529B59E2000E3C265 /* Assets.xcassets */,
+				362FF2B729B59E2000E3C265 /* LaunchScreen.storyboard */,
+				362FF2BA29B59E2000E3C265 /* Info.plist */,
+			);
+			path = "myTelkomselApp(exam-part1)";
+			sourceTree = "<group>";
+		};
+		362FF2C229B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2C329B59E2100E3C265 /* myTelkomselApp_exam_part1_Tests.swift */,
+				362FF2C529B59E2100E3C265 /* Info.plist */,
+			);
+			path = "myTelkomselApp(exam-part1)Tests";
+			sourceTree = "<group>";
+		};
+		362FF2CD29B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2CE29B59E2100E3C265 /* myTelkomselApp_exam_part1_UITests.swift */,
+				362FF2D029B59E2100E3C265 /* Info.plist */,
+			);
+			path = "myTelkomselApp(exam-part1)UITests";
+			sourceTree = "<group>";
+		};
+		362FF2DC29B59E6500E3C265 /* VIEW_CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2B029B59E1A00E3C265 /* ViewController.swift */,
+				362FF2B229B59E1A00E3C265 /* Main.storyboard */,
+				36ED448429B820EC00E0A8F0 /* SecondPageViewController.swift */,
+				36C3544329B8728E00AE9EF8 /* ThirdPageViewController.swift */,
+			);
+			path = VIEW_CONTROLLER;
+			sourceTree = "<group>";
+		};
+		362FF2DD29B59E7A00E3C265 /* TABLE_VIEW_CELL */ = {
+			isa = PBXGroup;
+			children = (
+				3605F0D029B9E465008AD270 /* PAKET_BELAJAR_SECTION */,
+				3605F0CF29B9E450008AD270 /* VOUCHER_SECTION */,
+				3605F0CE29B9E418008AD270 /* LANGGANGAN_KAMU_AND_POPULAR_SECTION */,
+				3605F0CD29B9E3FF008AD270 /* PAKET_INTERNET */,
+				36ED448629B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.swift */,
+				36ED448729B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.xib */,
+				36ED448A29B8231100E0A8F0 /* MasaAktifTableViewCell.swift */,
+				36ED448B29B8231100E0A8F0 /* MasaAktifTableViewCell.xib */,
+				36ED448E29B823EA00E0A8F0 /* RincianPaketTableViewCell.swift */,
+				36ED448F29B823EB00E0A8F0 /* RincianPaketTableViewCell.xib */,
+				36C3543B29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.swift */,
+				36C3543C29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.xib */,
+				36ED449229B82BD700E0A8F0 /* KeteranganPaketTableViewCell.swift */,
+				36ED449329B82BD700E0A8F0 /* KeteranganPaketTableViewCell.xib */,
+				36C3543F29B8556B00AE9EF8 /* PaketInternetTableViewCell.swift */,
+				36C3544029B8556B00AE9EF8 /* PaketInternetTableViewCell.xib */,
+			);
+			path = TABLE_VIEW_CELL;
+			sourceTree = "<group>";
+		};
+		362FF2DE29B59E8E00E3C265 /* COLLECTION_VIEW_CELL */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2DF29B59FB200E3C265 /* PaketInternetCollectionViewCell.swift */,
+				362FF2E029B59FB200E3C265 /* PaketInternetCollectionViewCell.xib */,
+				362FF2F029B5C76F00E3C265 /* LangganganKamuCollectionViewCell.swift */,
+				362FF2F129B5C76F00E3C265 /* LangganganKamuCollectionViewCell.xib */,
+				362D3ED629B6F2C10010249C /* CariVoucherCollectionViewCell.swift */,
+				362D3ED729B6F2C10010249C /* CariVoucherCollectionViewCell.xib */,
+				362D3EE029B723D60010249C /* PaketBelajarCollectionViewCell.swift */,
+				362D3EE129B723D60010249C /* PaketBelajarCollectionViewCell.xib */,
+			);
+			path = COLLECTION_VIEW_CELL;
+			sourceTree = "<group>";
+		};
+		362FF2E529B5A17800E3C265 /* STRUCT */ = {
+			isa = PBXGroup;
+			children = (
+				362FF2E629B5A19600E3C265 /* paketDataImageStruct.swift */,
+				362FF2F829B5D33200E3C265 /* langganganKamuStruct.swift */,
+				362D3EDA29B6F5060010249C /* promoImage.swift */,
+			);
+			path = STRUCT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362FF2A829B59E1A00E3C265 /* myTelkomselApp(exam-part1) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362FF2D329B59E2100E3C265 /* Build configuration list for PBXNativeTarget "myTelkomselApp(exam-part1)" */;
+			buildPhases = (
+				362FF2A529B59E1A00E3C265 /* Sources */,
+				362FF2A629B59E1A00E3C265 /* Frameworks */,
+				362FF2A729B59E1A00E3C265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myTelkomselApp(exam-part1)";
+			productName = "myTelkomselApp(exam-part1)";
+			productReference = 362FF2A929B59E1A00E3C265 /* myTelkomselApp(exam-part1).app */;
+			productType = "com.apple.product-type.application";
+		};
+		362FF2BE29B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362FF2D629B59E2100E3C265 /* Build configuration list for PBXNativeTarget "myTelkomselApp(exam-part1)Tests" */;
+			buildPhases = (
+				362FF2BB29B59E2100E3C265 /* Sources */,
+				362FF2BC29B59E2100E3C265 /* Frameworks */,
+				362FF2BD29B59E2100E3C265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362FF2C129B59E2100E3C265 /* PBXTargetDependency */,
+			);
+			name = "myTelkomselApp(exam-part1)Tests";
+			productName = "myTelkomselApp(exam-part1)Tests";
+			productReference = 362FF2BF29B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		362FF2C929B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362FF2D929B59E2100E3C265 /* Build configuration list for PBXNativeTarget "myTelkomselApp(exam-part1)UITests" */;
+			buildPhases = (
+				362FF2C629B59E2100E3C265 /* Sources */,
+				362FF2C729B59E2100E3C265 /* Frameworks */,
+				362FF2C829B59E2100E3C265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362FF2CC29B59E2100E3C265 /* PBXTargetDependency */,
+			);
+			name = "myTelkomselApp(exam-part1)UITests";
+			productName = "myTelkomselApp(exam-part1)UITests";
+			productReference = 362FF2CA29B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362FF2A129B59E1A00E3C265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					362FF2A829B59E1A00E3C265 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					362FF2BE29B59E2100E3C265 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 362FF2A829B59E1A00E3C265;
+					};
+					362FF2C929B59E2100E3C265 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 362FF2A829B59E1A00E3C265;
+					};
+				};
+			};
+			buildConfigurationList = 362FF2A429B59E1A00E3C265 /* Build configuration list for PBXProject "myTelkomselApp(exam-part1)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362FF2A029B59E1900E3C265;
+			productRefGroup = 362FF2AA29B59E1A00E3C265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362FF2A829B59E1A00E3C265 /* myTelkomselApp(exam-part1) */,
+				362FF2BE29B59E2100E3C265 /* myTelkomselApp(exam-part1)Tests */,
+				362FF2C929B59E2100E3C265 /* myTelkomselApp(exam-part1)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362FF2A729B59E1A00E3C265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C3543E29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.xib in Resources */,
+				362FF2B929B59E2000E3C265 /* LaunchScreen.storyboard in Resources */,
+				362D3EE729B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.xib in Resources */,
+				36ED449529B82BD700E0A8F0 /* KeteranganPaketTableViewCell.xib in Resources */,
+				362D3EE329B723D60010249C /* PaketBelajarCollectionViewCell.xib in Resources */,
+				362FF2E229B59FB200E3C265 /* PaketInternetCollectionViewCell.xib in Resources */,
+				36C3544229B8556B00AE9EF8 /* PaketInternetTableViewCell.xib in Resources */,
+				362FF2B629B59E2000E3C265 /* Assets.xcassets in Resources */,
+				362FF2F329B5C76F00E3C265 /* LangganganKamuCollectionViewCell.xib in Resources */,
+				362D3ED929B6F2C10010249C /* CariVoucherCollectionViewCell.xib in Resources */,
+				362D3EDF29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.xib in Resources */,
+				36ED449129B823EB00E0A8F0 /* RincianPaketTableViewCell.xib in Resources */,
+				362FF2E429B5A08B00E3C265 /* internetOMG!.png in Resources */,
+				36ED448D29B8231100E0A8F0 /* MasaAktifTableViewCell.xib in Resources */,
+				362FF2EB29B5A49800E3C265 /* TableViewCellForPaketInternetCollection.xib in Resources */,
+				36ED448929B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.xib in Resources */,
+				362FF2B429B59E1A00E3C265 /* Main.storyboard in Resources */,
+				362FF2F729B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362FF2BD29B59E2100E3C265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362FF2C829B59E2100E3C265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362FF2A529B59E1A00E3C265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362FF2B129B59E1A00E3C265 /* ViewController.swift in Sources */,
+				36C3544429B8728E00AE9EF8 /* ThirdPageViewController.swift in Sources */,
+				36C3544129B8556B00AE9EF8 /* PaketInternetTableViewCell.swift in Sources */,
+				362FF2E129B59FB200E3C265 /* PaketInternetCollectionViewCell.swift in Sources */,
+				362FF2F929B5D33200E3C265 /* langganganKamuStruct.swift in Sources */,
+				362FF2AD29B59E1A00E3C265 /* AppDelegate.swift in Sources */,
+				362FF2F229B5C76F00E3C265 /* LangganganKamuCollectionViewCell.swift in Sources */,
+				362D3EDB29B6F5060010249C /* promoImage.swift in Sources */,
+				362FF2AF29B59E1A00E3C265 /* SceneDelegate.swift in Sources */,
+				36ED448829B821DF00E0A8F0 /* CheckOutPaketDataTableViewCell.swift in Sources */,
+				36ED449429B82BD700E0A8F0 /* KeteranganPaketTableViewCell.swift in Sources */,
+				362D3EE629B72C180010249C /* PaketBelajarTableViewCellForPaketBelajarCollection.swift in Sources */,
+				36C3543D29B8508D00AE9EF8 /* PaymentSuccessTableViewCell.swift in Sources */,
+				362D3ED829B6F2C10010249C /* CariVoucherCollectionViewCell.swift in Sources */,
+				3605F0CA29B98366008AD270 /* VoucherHeaderTittle.swift in Sources */,
+				36ED448529B820EC00E0A8F0 /* SecondPageViewController.swift in Sources */,
+				3605F0CC29B99CF0008AD270 /* PaketBelajarHeaderTittle.swift in Sources */,
+				362FF2EA29B5A49800E3C265 /* TableViewCellForPaketInternetCollection.swift in Sources */,
+				36ED449029B823EB00E0A8F0 /* RincianPaketTableViewCell.swift in Sources */,
+				362D3EE229B723D60010249C /* PaketBelajarCollectionViewCell.swift in Sources */,
+				362FF2F629B5CE3700E3C265 /* LanggananKamuTableViewCellForLangganganCollection.swift in Sources */,
+				3605F0C629B97877008AD270 /* LangganganKamuHeaderTittle.swift in Sources */,
+				362FF2E729B5A19600E3C265 /* paketDataImageStruct.swift in Sources */,
+				362D3EDE29B6F5B20010249C /* VoucherTableViewCellForVoucherCollectionCell.swift in Sources */,
+				3605F0C829B97CF4008AD270 /* PopularHeaderTittle.swift in Sources */,
+				36ED448C29B8231100E0A8F0 /* MasaAktifTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362FF2BB29B59E2100E3C265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362FF2C429B59E2100E3C265 /* myTelkomselApp_exam_part1_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362FF2C629B59E2100E3C265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362FF2CF29B59E2100E3C265 /* myTelkomselApp_exam_part1_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		362FF2C129B59E2100E3C265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362FF2A829B59E1A00E3C265 /* myTelkomselApp(exam-part1) */;
+			targetProxy = 362FF2C029B59E2100E3C265 /* PBXContainerItemProxy */;
+		};
+		362FF2CC29B59E2100E3C265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362FF2A829B59E1A00E3C265 /* myTelkomselApp(exam-part1) */;
+			targetProxy = 362FF2CB29B59E2100E3C265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		362FF2B229B59E1A00E3C265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362FF2B329B59E1A00E3C265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		362FF2B729B59E2000E3C265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362FF2B829B59E2000E3C265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362FF2D129B59E2100E3C265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		362FF2D229B59E2100E3C265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		362FF2D429B59E2100E3C265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myTelkomselApp(exam-part1)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "productList.myTelkomselApp-exam-part1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		362FF2D529B59E2100E3C265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myTelkomselApp(exam-part1)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "productList.myTelkomselApp-exam-part1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		362FF2D729B59E2100E3C265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myTelkomselApp(exam-part1)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "productList.myTelkomselApp-exam-part1-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myTelkomselApp(exam-part1).app/myTelkomselApp(exam-part1)";
+			};
+			name = Debug;
+		};
+		362FF2D829B59E2100E3C265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myTelkomselApp(exam-part1)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "productList.myTelkomselApp-exam-part1-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myTelkomselApp(exam-part1).app/myTelkomselApp(exam-part1)";
+			};
+			name = Release;
+		};
+		362FF2DA29B59E2100E3C265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myTelkomselApp(exam-part1)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "productList.myTelkomselApp-exam-part1-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "myTelkomselApp(exam-part1)";
+			};
+			name = Debug;
+		};
+		362FF2DB29B59E2100E3C265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myTelkomselApp(exam-part1)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "productList.myTelkomselApp-exam-part1-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "myTelkomselApp(exam-part1)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362FF2A429B59E1A00E3C265 /* Build configuration list for PBXProject "myTelkomselApp(exam-part1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362FF2D129B59E2100E3C265 /* Debug */,
+				362FF2D229B59E2100E3C265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362FF2D329B59E2100E3C265 /* Build configuration list for PBXNativeTarget "myTelkomselApp(exam-part1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362FF2D429B59E2100E3C265 /* Debug */,
+				362FF2D529B59E2100E3C265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362FF2D629B59E2100E3C265 /* Build configuration list for PBXNativeTarget "myTelkomselApp(exam-part1)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362FF2D729B59E2100E3C265 /* Debug */,
+				362FF2D829B59E2100E3C265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362FF2D929B59E2100E3C265 /* Build configuration list for PBXNativeTarget "myTelkomselApp(exam-part1)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362FF2DA29B59E2100E3C265 /* Debug */,
+				362FF2DB29B59E2100E3C265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362FF2A129B59E1A00E3C265 /* Project object */;
+}
